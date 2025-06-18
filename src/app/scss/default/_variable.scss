@@ -1,0 +1,44 @@
+// /*--------------------------------------------------------------
+// ## Basic Color
+// ----------------------------------------------------------------*/
+// :root {
+//   --accent: #1bfff3;
+//   // --accent: linear-gradient(90deg, #aeffae, #1bfff3);
+//   --primary-font: 'Poppins';
+//   --secondary-font: 'Open Sans';
+// }
+// $white: #fff;
+// $black: #161616;
+// $primary: #fefefe;
+// $secondary: rgba($primary, 0.7);
+// $ternary: #999696;
+// $border: #4d4d4d;
+// $gray: #181818;
+// $accent: var(--accent);
+// $bg: #121212;
+
+
+/*--------------------------------------------------------------
+## Basic Color
+----------------------------------------------------------------*/
+:root {
+  --accent-start: #aeffae;
+  --accent-end: #1bfff3;
+  --accent: #1bfff3;
+  --accent-gradient: linear-gradient(90deg, #1bfff3 , #aeffae);
+  --primary-font: 'Poppins';
+  --secondary-font: 'Open Sans';
+}
+
+$white: #fff;
+$black: #121212;
+$primary: #fefefe;
+$secondary: rgba($primary, 0.7);
+$ternary: #999696;
+$border: #4d4d4d;
+$gray: #121212;
+
+$accent: var(--accent); // for solid color use
+$accent-gradient: var(--accent-gradient); // for gradient use in backgrounds
+
+$bg: #121212;

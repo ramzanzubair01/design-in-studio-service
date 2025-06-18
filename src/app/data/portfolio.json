@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "title": "Colorful Art Work",
+    "slug": "colorful-art-work",
+    "description": "An artistic UI/UX design project for creative professionals, featuring bold colors and clean layout aesthetics.",
+    "images": [
+      "/images/portfolio_4.jpeg",
+      "/images/portfolio_4.jpeg"
+    ],
+    "category": "ui_ux_design",
+    "client": "Artify Co.",
+    "location": "Lahore, Pakistan",
+    "software": [
+      "Figma",
+      "Illustrator"
+    ],
+    "dated": "April 2025"
+  },
+  {
+    "id": 2,
+    "title": "Minimal Mobile App",
+    "slug": "minimal-mobile-app",
+    "description": "A sleek and user-friendly mobile application designed with minimalism in mind, perfect for startup platforms.",
+    "images": [
+      "/images/portfolio_5.jpeg"
+    ],
+    "category": "mobile_apps",
+    "client": "QuickApp",
+    "location": "Karachi, Pakistan",
+    "software": [
+      "Flutter",
+      "Firebase"
+    ],
+    "dated": "March 2025"
+  },
+  {
+    "id": 3,
+    "title": "Creative App UI",
+    "slug": "creative-app-ui",
+    "description": "App UI built for a next-gen task manager, combining creative layouts with practical usability.",
+    "images": [
+      "/images/portfolio_6.jpeg"
+    ],
+    "category": "app_development",
+    "client": "Taskly Inc.",
+    "location": "Remote",
+    "software": [
+      "React Native",
+      "Figma"
+    ],
+    "dated": "February 2025"
+  },
+  {
+    "id": 4,
+    "title": "Brand Launch Identity",
+    "slug": "brand-launch-identity",
+    "description": "Full branding package including logo, typography, and visual identity system for a new brand launch.",
+    "images": [
+      "/images/portfolio_7.jpeg"
+    ],
+    "category": "branding",
+    "client": "Nova Brands",
+    "location": "Islamabad, Pakistan",
+    "software": [
+      "Illustrator",
+      "Photoshop"
+    ],
+    "dated": "January 2025"
+  },
+  {
+    "id": 5,
+    "title": "Modern Poster Design",
+    "slug": "modern-poster-design-1",
+    "description": "A modern, clean poster design crafted for digital and print marketing campaigns.",
+    "images": [
+      "/images/portfolio_8.jpeg"
+    ],
+    "category": "graphic_design",
+    "client": "PrintX",
+    "location": "Rawalpindi, Pakistan",
+    "software": [
+      "Photoshop"
+    ],
+    "dated": "May 2025"
+  },
+  {
+    "id": 6,
+    "title": "Responsive Web App",
+    "slug": "responsive-web-app",
+    "description": "A responsive web application tailored for small businesses, optimized for SEO and user experience.",
+    "images": [
+      "/images/portfolio_8.jpeg",
+      "/images/portfolio_8_b.jpeg"
+    ],
+    "category": "web_development",
+    "client": "BizSoft",
+    "location": "Multan, Pakistan",
+    "software": [
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "dated": "June 2025"
+  },
+  {
+    "id": 7,
+    "title": "SaaS Dashboard",
+    "slug": "saas-dashboard",
+    "description": "An admin dashboard for a SaaS startup with custom chart integrations and user analytics.",
+    "images": [
+      "/images/portfolio_8.jpeg"
+    ],
+    "category": "web_development",
+    "client": "DashHub",
+    "location": "Peshawar, Pakistan",
+    "software": [
+      "React",
+      "Chart.js"
+    ],
+    "dated": "June 2025"
+  },
+  {
+    "id": 8,
+    "title": "Landing Page UI",
+    "slug": "landing-page-ui",
+    "description": "Modern landing page design focused on lead conversion for a marketing agency.",
+    "images": [
+      "/images/portfolio_8.jpeg"
+    ],
+    "category": "web_development",
+    "client": "ClickPro",
+    "location": "Faisalabad, Pakistan",
+    "software": [
+      "HTML",
+      "Tailwind CSS"
+    ],
+    "dated": "May 2025"
+  },
+  {
+    "id": 9,
+    "title": "Portfolio Showcase",
+    "slug": "portfolio-showcase",
+    "description": "Interactive portfolio website for a freelance designer, including animation and scroll effects.",
+    "images": [
+      "/images/portfolio_8.jpeg"
+    ],
+    "category": "web_development",
+    "client": "Ayesha R.",
+    "location": "Remote",
+    "software": [
+      "GSAP",
+      "Next.js"
+    ],
+    "dated": "June 2025"
+  },
+  {
+    "id": 10,
+    "title": "E-commerce UI",
+    "slug": "ecommerce-ui",
+    "description": "Complete frontend UI for an online store including product grid, filters, and cart interface.",
+    "images": [
+      "/images/portfolio_8.jpeg"
+    ],
+    "category": "web_development",
+    "client": "ShopNest",
+    "location": "Hyderabad, Pakistan",
+    "software": [
+      "React",
+      "Redux"
+    ],
+    "dated": "April 2025"
+  }
+]
