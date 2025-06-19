@@ -7,13 +7,13 @@ import SocialWidget from "@/app/ui/Widget/SocialWidget"
 import imgUrl from '../../../../public/images/member_details_1.jpeg'
 import Image from "next/image"
 
-export default function Adnan() {
+export default function Zubair() {
   return (
     <>
       <PageHeading
-        title='Adnan Akber'
+        title='Muhammad Zubair'
         bgSrc='/images/team_hero_bg.jpeg'
-        pageLinkText='Adnan Akber'
+        pageLinkText='Muhammad Zubair'
       />
       <Spacing lg='150' md='80'/>
       <Div className="container">
