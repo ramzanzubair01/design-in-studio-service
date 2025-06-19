@@ -131,6 +131,7 @@ export default function TeamSlider() {
             memberImage={item.memberImage}
             memberName={item.memberName}
             memberDesignation={item.memberDesignation}
+            href={item.href}
             memberSocial={item.memberSocial}
           />
         </Div>
