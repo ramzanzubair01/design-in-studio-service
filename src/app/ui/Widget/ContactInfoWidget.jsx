@@ -16,7 +16,7 @@ export default function ContactInfoWidget({withIcon, title}) {
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>:''}
-          Main Bazar Jinnah Park <br/>Gulburg II, Lahore, Pakistan
+          6CCA DHA phase 5 <br/>Lahore, Pakistan
         </li>
       </ul>
     </>
