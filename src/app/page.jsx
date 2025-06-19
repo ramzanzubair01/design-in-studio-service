@@ -14,12 +14,12 @@ import VideoModal from "@/app/ui/VideoModal";
 
 const heroSocialLinks = [
   {
-    name: 'Behance',
-    links: '/',
+    name: 'Facebook',
+    links: 'https://www.facebook.com/profile.php?id=61576219402495',
   },
   {
-    name: 'Twitter',
-    links: '/',
+    name: 'Instagram',
+    links: 'https://www.instagram.com/designinstudio.official/',
   },
 ];
 const funfaceData = [
@@ -56,7 +56,7 @@ export default function MarketingAgencyHome() {
       {/* End Hero Section */}
 
       {/* Start Video Block Section */}
-      <Div className="cs-video_block_1_wrap">
+      <Div className="cs-video_block_1_wrap ">
         <Div className="container">
           <VideoModal
             videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
