@@ -18,19 +18,19 @@ import aboutImg4 from '../../../public/images/about_img_4.jpeg'
 const funfaceData = [
   {
     title: 'Global Happy Clients',
-    factNumber: '40K',
+    factNumber: '40',
   },
   {
     title: 'Project Completed',
-    factNumber: '50K',
+    factNumber: '317',
   },
   {
     title: 'Team Members',
-    factNumber: '245',
+    factNumber: '20',
   },
   {
     title: 'Digital products',
-    factNumber: '550',
+    factNumber: '5',
   },
 ];
 
@@ -56,11 +56,7 @@ export default function AboutPage() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+              We’re not just here to deliver a service and disappear. We care about your business like it’s our own. You can count on us to be honest, easy to work with, and fully committed to helping you move forward
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -100,7 +96,7 @@ export default function AboutPage() {
       <Div className="container">
         <FunFact
           title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          subtitle="We started with just one laptop, a shared desk, and a big dream  now we’ve completed over 100+ projects!"
           data={funfaceData}
         />
       </Div>
@@ -129,18 +125,11 @@ export default function AboutPage() {
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+              We have skilled designers and developers who know what they’re doing. Our team works with care, stays professional, and always focuses on what the client wants. Making you happy with the results is our top priority.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
+              We’ve worked with many happy clients and finished lots of successful projects. From making logos to full websites and apps, we’ve done it all with care. What makes us proud is that our clients trust us and come back again.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>

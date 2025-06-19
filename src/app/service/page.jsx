@@ -32,15 +32,7 @@ export default function ServicesPage() {
 
       {/* Pricing Section */}
       <Spacing lg='150' md='80'/>
-      <Div className="container">
-        <SectionHeading
-          title='Providing best <br/>pricing for client' 
-          subtitle='Pricing & Packaging'
-        />
-        <Spacing lg='85' md='40'/>
-        <PricingTableList/>
-      </Div>
-
+   
       {/* Testimonial Section */}
       <Spacing lg='125' md='55'/>
       <TestimonialSlider/>
