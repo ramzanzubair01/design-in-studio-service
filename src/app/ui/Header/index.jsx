@@ -112,14 +112,8 @@ export default function Header({ variant }) {
                               Team
                             </Link>
                           </li>
-                          <li>
-                            <Link
-                              href="/team/team-details"
-                              onClick={() => setMobileToggle(false)}
-                            >
-                              Team Details
-                            </Link>
-                          </li>
+                        
+                          
                           <li>
                             <Link
                               href="/case-study/case-study-details"

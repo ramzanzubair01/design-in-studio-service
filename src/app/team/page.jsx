@@ -1,4 +1,6 @@
 'use client'
+
+import Link from 'next/link';
 import Cta from "@/app/ui/Cta";
 import Div from "@/app/ui/Div";
 import PageHeading from "@/app/ui/PageHeading";
@@ -12,8 +14,6 @@ const teamData = [
     memberName: 'Adnan Akber',
     memberDesignation: 'Founder & CEO',
     href: '/team/adnan',
-
-    
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -26,7 +26,6 @@ const teamData = [
     memberName: 'Muhammad Zubair',
     memberDesignation: 'Co -Founder & CTO',
     href: '/team/zubair',
-
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -36,10 +35,9 @@ const teamData = [
   },
   {
     memberImage: '/images/member_3.jpeg',
-    memberName: 'khuram Malik',
+    memberName: 'Khuram Malik',
     memberDesignation: 'Marketing Manager',
     href: '/team/khuram',
-
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -52,7 +50,6 @@ const teamData = [
     memberName: 'Saqib Raza',
     memberDesignation: 'Senior Developer',
     href: '/team/saqib',
-
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -60,7 +57,6 @@ const teamData = [
       facebook: '/',
     },
   },
-  
 ];
 
 export default function TeamPage() {
@@ -82,13 +78,15 @@ export default function TeamPage() {
         <Div className="row">
           {teamData.map((item, index) => (
             <Div key={index} className="col-lg-3 col-sm-6">
-              <Team
-                memberImage={item.memberImage}
-                memberName={item.memberName}
-                memberDesignation={item.memberDesignation}
-                href={item.href}
-                memberSocial={item.memberSocial}
-              />
+              <Link href={item.href} className="block">
+                <Team
+                  memberImage={item.memberImage}
+                  memberName={item.memberName}
+                  memberDesignation={item.memberDesignation}
+                  href={item.href}
+                  memberSocial={item.memberSocial}
+                />
+              </Link>
               <Spacing lg="80" md="30" />
             </Div>
           ))}
