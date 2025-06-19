@@ -3,6 +3,8 @@ import React from 'react';
 import Slider from 'react-slick';
 import Div from '../Div';
 import Team from '../Team';
+import Link from 'next/link';
+
 const teamData = [
   {
     memberImage: '/images/member_1.jpeg',
@@ -125,19 +127,17 @@ export default function TeamSlider() {
 
   return (
     <Slider {...settings} className="cs-gap-24 cs-arrow_style2">
-      {teamData.map((item, index) => (
-        <Link href={item.href} >
-        <Div key={index}>
-          
-          <Team
-            memberImage={item.memberImage}
-            memberName={item.memberName}
-            memberDesignation={item.memberDesignation}
-            memberSocial={item.memberSocial}
-          />
-
-        </Div>
-          </Link>
+   {teamData.map((item, index) => (
+  <Link href={item.href} key={index} className="block">
+    <Div>
+      <Team
+        memberImage={item.memberImage}
+        memberName={item.memberName}
+        memberDesignation={item.memberDesignation}
+        memberSocial={item.memberSocial}
+      />
+    </Div>
+  </Link>
       ))}
     </Slider>
   );
