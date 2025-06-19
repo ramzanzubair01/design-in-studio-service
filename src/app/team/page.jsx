@@ -11,6 +11,8 @@ const teamData = [
     memberImage: '/images/member_1.jpeg',
     memberName: 'Adnan Akber',
     memberDesignation: 'Founder & CEO',
+    href: '/team/adnan',
+
     
     memberSocial: {
       linkedin: '/',
@@ -23,6 +25,8 @@ const teamData = [
     memberImage: '/images/member_2.jpeg',
     memberName: 'Muhammad Zubair',
     memberDesignation: 'Co -Founder & CTO',
+    href: '/team/zubair',
+
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -34,6 +38,8 @@ const teamData = [
     memberImage: '/images/member_3.jpeg',
     memberName: 'khuram Malik',
     memberDesignation: 'Marketing Manager',
+    href: '/team/khuram',
+
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -45,6 +51,8 @@ const teamData = [
     memberImage: '/images/member_4.jpeg',
     memberName: 'Saqib Raza',
     memberDesignation: 'Senior Developer',
+    href: '/team/saqib',
+
     memberSocial: {
       linkedin: '/',
       twitter: '/',
