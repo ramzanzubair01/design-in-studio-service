@@ -126,15 +126,18 @@ export default function TeamSlider() {
   return (
     <Slider {...settings} className="cs-gap-24 cs-arrow_style2">
       {teamData.map((item, index) => (
+        <Link href={item.href} >
         <Div key={index}>
+          
           <Team
             memberImage={item.memberImage}
             memberName={item.memberName}
             memberDesignation={item.memberDesignation}
-            href={item.href}
             memberSocial={item.memberSocial}
           />
+
         </Div>
+          </Link>
       ))}
     </Slider>
   );
