@@ -1,22 +1,5 @@
 [
-  {
-    "id": 1,
-    "title": "Colorful Art Work",
-    "slug": "colorful-art-work",
-    "description": "An artistic UI/UX design project for creative professionals, featuring bold colors and clean layout aesthetics.",
-    "images": [
-      "/images/portfolio_4.jpeg",
-      "/images/portfolio_4.jpeg"
-    ],
-    "category": "ui_ux_design",
-    "client": "Artify Co.",
-    "location": "Lahore, Pakistan",
-    "software": [
-      "Figma",
-      "Illustrator"
-    ],
-    "dated": "April 2025"
-  },
+  
   {
     "id": 2,
     "title": "Minimal Mobile App",
