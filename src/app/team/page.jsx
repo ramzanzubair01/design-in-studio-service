@@ -9,8 +9,9 @@ import Team from "@/app/ui/Team";
 const teamData = [
   {
     memberImage: '/images/member_1.jpeg',
-    memberName: 'Melon Bulgery',
-    memberDesignation: 'Product Designer',
+    memberName: 'Adnan Akber',
+    memberDesignation: 'Founder & CEO',
+    
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -20,8 +21,8 @@ const teamData = [
   },
   {
     memberImage: '/images/member_2.jpeg',
-    memberName: 'Olinaz Fushi',
-    memberDesignation: 'Product Designer',
+    memberName: 'Muhammad Zubair',
+    memberDesignation: 'Co -Founder & CTO',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -31,8 +32,8 @@ const teamData = [
   },
   {
     memberImage: '/images/member_3.jpeg',
-    memberName: 'David Elone',
-    memberDesignation: 'React Developer',
+    memberName: 'khuram Malik',
+    memberDesignation: 'Marketing Manager',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -42,8 +43,8 @@ const teamData = [
   },
   {
     memberImage: '/images/member_4.jpeg',
-    memberName: 'Melina Opole',
-    memberDesignation: 'WP Developer',
+    memberName: 'Saqib Raza',
+    memberDesignation: 'Senior Developer',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
@@ -51,50 +52,7 @@ const teamData = [
       facebook: '/',
     },
   },
-  {
-    memberImage: '/images/member_3.jpeg',
-    memberName: 'David Elone',
-    memberDesignation: 'React Developer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_4.jpeg',
-    memberName: 'Melina Opole',
-    memberDesignation: 'WP Developer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_1.jpeg',
-    memberName: 'Melon Bulgery',
-    memberDesignation: 'Product Designer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
-  {
-    memberImage: '/images/member_2.jpeg',
-    memberName: 'Olinaz Fushi',
-    memberDesignation: 'Product Designer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
+  
 ];
 
 export default function TeamPage() {
