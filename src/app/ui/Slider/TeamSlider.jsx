@@ -34,7 +34,7 @@ const teamData = [
   {
     memberImage: '/images/member_3.jpeg',
     memberName: 'Khuram Malik',
-    memberDesignation: 'Marketing Manager',
+    memberDesignation: 'Managing Director',
     href: '/team/khuram', // Points to /team/khuram/page.jsx
     memberSocial: {
       linkedin: '/',
