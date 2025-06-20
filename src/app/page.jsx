@@ -11,6 +11,8 @@ import PostSlider from "@/app/ui/Slider/PostSlider";
 import TestimonialSlider from "@/app/ui/Slider/TestimonialSlider";
 import Spacing from "@/app/ui/Spacing";
 import VideoSection from "@/app/ui/VideoSection";
+import Head from 'next/head';
+
 
 const heroSocialLinks = [
   {
@@ -44,6 +46,10 @@ const funfaceData = [
 export default function MarketingAgencyHome() {
   return (
     <>
+    <Head>
+  <title>Design In Studio | Creative Agency </title>
+  <meta name="description" content="Design In Studio offers graphic design, web development,UI/UX, Ai Solutions, SEO, and digital marketing services." />
+</Head>
       {/* Start Hero Section */}
       <Hero5
   title={`Design Your <br />Vision <span style="background: linear-gradient(90deg, #1bfff3, #aeffae); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; display: inline;">Shape Your</span> Future`}
