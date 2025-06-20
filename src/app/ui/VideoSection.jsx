@@ -30,7 +30,7 @@ const VideoSection = () => {
       >
         {/* Thumbnail image - only shows when not hovered */}
         <img
-          src="/images/about_img_3.jpeg"
+          src="/images/about_img_4.jpeg"
           alt="Video thumbnail"
           style={{
             ...styles.videoThumbnail,
@@ -52,12 +52,15 @@ const VideoSection = () => {
           Your browser does not support the video tag.
         </video>
         
-        {/* Down arrow */}
-        <div style={styles.downArrow}>
+        {/* Down arrow with gradient background and dark icon */}
+        <div style={{
+          ...styles.downArrow,
+          background: 'linear-gradient(90deg, #1bfff3, #aeffae)'
+        }}>
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path 
               d="M12 5V19M12 19L19 12M12 19L5 12" 
-              stroke="white" 
+              stroke="#181818"  
               strokeWidth="2" 
               strokeLinecap="round" 
               strokeLinejoin="round"
@@ -117,9 +120,8 @@ const styles = {
     bottom: '-30px',
     left: '50%',
     transform: 'translateX(-50%)',
-    width: '50px',
-    height: '50px',
-    backgroundColor: '#4285F4',
+    width: '60px',
+    height: '60px',
     borderRadius: '50%',
     display: 'flex',
     justifyContent: 'center',
