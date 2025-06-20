@@ -50,6 +50,34 @@ export default function MarketingAgencyHome() {
   <title>Design In Studio | Creative Agency </title>
   <meta name="description" content="Design In Studio offers graphic design, web development,UI/UX, Ai Solutions, SEO, and digital marketing services." />
 </Head>
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Design In Studio",
+      "url": "https://www.designinstudio.com",  
+      "logo": "https://designinstudio.com/images/final_logo.svg",  // ✅ logo ka link
+      "description": "Creative design & web development agency in DHA Lahore. We offer UI/UX, branding, Web Development, Ai Solutions, SEO, and digital marketing.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "6 CCA, DHA Phase 5",
+        "addressLocality": "Lahore",
+        "addressRegion": "Punjab",
+        "postalCode": "54910",
+        "addressCountry": "PK"
+      },
+      "telephone": " +92 313 6741331",
+      "email": "designinstudio60@gmail.com",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61576219402495",
+        "https://www.instagram.com/designinstudio.official/"
+      ]
+    })
+  }}
+/>
+
       {/* Start Hero Section */}
       <Hero5
   title={`Design Your <br />Vision <span style="background: linear-gradient(90deg, #1bfff3, #aeffae); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; display: inline;">Shape Your</span> Future`}
