@@ -10,7 +10,7 @@ import PortfolioSlider2 from "@/app/ui/Slider/PortfolioSlider2";
 import PostSlider from "@/app/ui/Slider/PostSlider";
 import TestimonialSlider from "@/app/ui/Slider/TestimonialSlider";
 import Spacing from "@/app/ui/Spacing";
-import VideoModal from "@/app/ui/VideoModal";
+import VideoSection from "@/app/ui/VideoSection";
 
 const heroSocialLinks = [
   {
@@ -58,16 +58,13 @@ export default function MarketingAgencyHome() {
       {/* Start Video Block Section */}
       <Div className="cs-video_block_1_wrap ">
         <Div className="container">
-          <VideoModal
-            videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-            bgUrl="/images/video_bg_2.jpeg"
-          />
+        <VideoSection />
         </Div>
       </Div>
       {/* End Video Block Section */}
 
       {/* Start Services Section */}
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" /> */}
       <Div className="container">
       <SectionHeading
   title={`Our core <span style="background: linear-gradient(90deg, #1bfff3, #aeffae); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; display: inline;">services</span>`}

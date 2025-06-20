@@ -25,7 +25,7 @@ const serviceData = [
     href: '/service/webdevelopement',
   },
   {
-    title: 'Ai Chat Bot Development',
+    title: 'Ai Solutions',
     subtitle:
       'From idea to launch  we help you build mobile apps that people love to use. Whether it’s Android or iOS, we focus on creating apps that are smooth, simple, and full of useful features.',
     imgUrl: '/images/service_10.jpeg',

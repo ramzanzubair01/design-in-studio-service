@@ -34,9 +34,9 @@ const serviceMenu = [
     href: '/service/webdevelopement',
   },
   {
-    title: 'App Development',
+    title: 'Ai Solutions',
     
-    href: '/service/appdevelopment',
+    ref: '/service/aichatbots',
   },
   
 ];
