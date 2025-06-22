@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const VideoSection = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const youtubeUrl = "https://www.youtube.com/embed/EzdY-bMmZu0?autoplay=1&mute=0&enablejsapi=1&rel=0";
+  const youtubeUrl = "https://youtu.be/GGf1JjSAKP4?si=7j2VMgK7pD_ic-Xw";
 
   return (
     <Body>
