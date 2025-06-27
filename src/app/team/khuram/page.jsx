@@ -26,15 +26,15 @@ export default function Khuram() {
           <Div className="col-lg-6 offset-xl-1">
             <Spacing lg='0' md='45'/>
             <Div className="cs-section_heading cs-style1">
-              <h2 className="cs-section_title">Melon Bulgery</h2>
+              <h2 className="cs-section_title">Khurram Malik</h2>
               <Div className="cs-height_10 cs-height_lg_10" />
-              <h3 className="cs-section_subtitle">Product Designer</h3>
+              <h3 className="cs-section_subtitle">Managing Director</h3>
               <Div className="cs-height_5 cs-height_lg_5" />
               <Div className="cs-separator cs-accent_bg" />
               <Div className="cs-height_45 cs-height_lg_25" />
-              <p className="cs-m0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p className="cs-m0">Meet Mr. Khurram Malik He is the Managing Director of Design in Studio and brings over 6 years of experience in the creative and corporate industry. At the studio, he oversees day-to-day operations, ensures smooth project delivery, and works closely with the team to maintain high-quality standards. His leadership and strategic thinking have helped the studio grow and succeed in a competitive market.</p>
               <Div className="cs-height_25 cs-height_lg_20" />
-              <p className="cs-m0">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
+              <p className="cs-m0">In addition to his role at the studio, Mr. Khurram Malik also works as a Relationship Manager at Meezan Bank, where he has consistently delivered top performance. His strong communication skills and client-focused approach have earned him recognition and trust among clients and colleagues alike. With his background in both design and banking, he brings a unique mix of creativity and professionalism to every project.</p>
               <Div className="cs-height_45 cs-height_lg_30" />
               <SocialWidget/>
             </Div>

@@ -26,15 +26,15 @@ export default function Saqib() {
           <Div className="col-lg-6 offset-xl-1">
             <Spacing lg='0' md='45'/>
             <Div className="cs-section_heading cs-style1">
-              <h2 className="cs-section_title">Melon Bulgery</h2>
+              <h2 className="cs-section_title">Saqib Raza</h2>
               <Div className="cs-height_10 cs-height_lg_10" />
-              <h3 className="cs-section_subtitle">Product Designer</h3>
+              <h3 className="cs-section_subtitle">Full Stack Developer</h3>
               <Div className="cs-height_5 cs-height_lg_5" />
               <Div className="cs-separator cs-accent_bg" />
               <Div className="cs-height_45 cs-height_lg_25" />
-              <p className="cs-m0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p className="cs-m0">Meet Mr. Saqib Raza He is the Developer at Design in Studio, responsible for building and maintaining the technical side of the projects. With a strong background in web development, Mr. Saqib specializes in creating responsive, fast, and user-friendly websites that match the creative vision of the design team.</p>
               <Div className="cs-height_25 cs-height_lg_20" />
-              <p className="cs-m0">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
+              <p className="cs-m0">He works closely with both designers and clients to ensure every project is functional, visually appealing, and delivered on time. His attention to detail and problem-solving skills help in turning complex ideas into smooth digital experiences. Whether it's a business website, portfolio, or e-commerce platform, Saqib makes sure everything runs perfectly behind the scenes.</p>
               <Div className="cs-height_45 cs-height_lg_30" />
               <SocialWidget/>
             </Div>

@@ -26,15 +26,15 @@ export default function Adnan() {
           <Div className="col-lg-6 offset-xl-1">
             <Spacing lg='0' md='45'/>
             <Div className="cs-section_heading cs-style1">
-              <h2 className="cs-section_title">Melon Bulgery</h2>
+              <h2 className="cs-section_title">Adnan Akber</h2>
               <Div className="cs-height_10 cs-height_lg_10" />
-              <h3 className="cs-section_subtitle">Product Designer</h3>
+              <h3 className="cs-section_subtitle">Founder & Designer</h3>
               <Div className="cs-height_5 cs-height_lg_5" />
               <Div className="cs-separator cs-accent_bg" />
               <Div className="cs-height_45 cs-height_lg_25" />
-              <p className="cs-m0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p className="cs-m0">Meet Mr. Adnan Akber He is the founder and lead designer of Design in Studio. He started this studio with a dream to help brands look modern and professional. As a founder, he works with full dedication and always tries to bring new and creative ideas to life</p>
               <Div className="cs-height_25 cs-height_lg_20" />
-              <p className="cs-m0">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
+              <p className="cs-m0"> Mr. Adnan has strong skills in UI/UX design, branding, graphic design, and video editing. He creates designs that are not only beautiful but also easy to use and understand. With years of experience, he knows how to turn a simple idea into something that looks great and works well.</p>
               <Div className="cs-height_45 cs-height_lg_30" />
               <SocialWidget/>
             </Div>

@@ -26,15 +26,15 @@ export default function Zubair() {
           <Div className="col-lg-6 offset-xl-1">
             <Spacing lg='0' md='45'/>
             <Div className="cs-section_heading cs-style1">
-              <h2 className="cs-section_title">Melon Bulgery</h2>
+              <h2 className="cs-section_title">Muhammad Zubair</h2>
               <Div className="cs-height_10 cs-height_lg_10" />
-              <h3 className="cs-section_subtitle">Product Designer</h3>
+              <h3 className="cs-section_subtitle">Co-Founder & Full Stack Developer</h3>
               <Div className="cs-height_5 cs-height_lg_5" />
               <Div className="cs-separator cs-accent_bg" />
               <Div className="cs-height_45 cs-height_lg_25" />
-              <p className="cs-m0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p className="cs-m0">Meet Mr. Muhammad Zubair He is the Co-Founder and Lead Full-Stack Developer at Design in Studio. With a deep understanding of both front-end and back-end development, he builds powerful, modern, and scalable web applications using the latest technologies</p>
               <Div className="cs-height_25 cs-height_lg_20" />
-              <p className="cs-m0">Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
+              <p className="cs-m0">As a co-founder, he plays a key role in shaping the technical direction of the studio and ensuring each project is built with quality and performance in mind. From user-friendly interfaces to strong and secure backend systems, Mr. Zubair handles every layer of development with skill and passion. His goal is to create smooth, fast, and reliable digital solutions that meet client needs and industry standards.</p>
               <Div className="cs-height_45 cs-height_lg_30" />
               <SocialWidget/>
             </Div>
