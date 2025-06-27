@@ -25,6 +25,9 @@ export default function RootLayout({ children }) {
         <meta name="author" content="Laralink" />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
         <title>Design In Studio | Design your vision Shape your future</title>
+        <meta name="description" content="Design In Studio offers graphic design, web development, UI/UX, AI Solutions, SEO, and digital marketing services." />
+        <meta name="keywords" content="Design In Studio, graphic design, web development, UI/UX design, AI solutions, SEO, digital marketing" />
+        
       </head>
       <body className={`${openSans.variable} ${poppins.variable}`}>
         <Header />
