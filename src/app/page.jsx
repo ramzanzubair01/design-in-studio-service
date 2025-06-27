@@ -49,6 +49,8 @@ export default function MarketingAgencyHome() {
     <Head>
   <title>Design In Studio | Creative Agency </title>
   <meta name="description" content="Design In Studio offers graphic design, web development,UI/UX, Ai Solutions, SEO, and digital marketing services." />
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+
 </Head>
 <script
   type="application/ld+json"
