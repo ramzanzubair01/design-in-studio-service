@@ -22,7 +22,7 @@ const teamData = [
   {
     memberImage: '/images/member_2.jpeg',
     memberName: 'Muhammad Zubair',
-    memberDesignation: 'Co-Founder & CTO',
+    memberDesignation: 'Co-Founder & Full Stack Developer',
     href: '/team/zubair', // Points to /team/zubair/page.jsx
     memberSocial: {
       linkedin: '/',
