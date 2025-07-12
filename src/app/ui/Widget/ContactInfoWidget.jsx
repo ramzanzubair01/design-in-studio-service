@@ -16,7 +16,7 @@ export default function ContactInfoWidget({withIcon, title}) {
         </li>
         <li>
           {withIcon?<span className='cs-accent_color'><Icon icon="mdi:map-marker" /></span>:''}
-          6CCA DHA phase 5 <br/>Lahore, Pakistan
+          Flat 101, Stoke Newington High Street London <br/>Hackney, London, United Kingdom, N16 0PH
         </li>
       </ul>
     </>

@@ -1,5 +1,22 @@
 [
   {
+    "id": 0,
+    "title": "Minimal Mobile App",
+    "slug": "minimal-mobile-app",
+    "description": "A sleek and user-friendly mobile application designed with minimalism in mind, perfect for startup platforms.",
+    "images": [
+      "/images/portfolio_5.jpeg"
+    ],
+    "category": "mobile_apps",
+    "client": "QuickApp",
+    "location": "Karachi, Pakistan",
+    "software": [
+      "Flutter",
+      "Firebase"
+    ],
+    "dated": "March 2025"
+  },
+  {
     "id": 1,
     "title": "Colorful Art Work",
     "slug": "colorful-art-work",
