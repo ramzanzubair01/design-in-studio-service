@@ -45,7 +45,7 @@ export default function PortfolioPage() {
           title="Some recent work"
           subtitle="Our Portfolio"
           showFilter={true}
-          initialItems={6}
+          initialItems={7}
           loadMoreStep={3}
         />
       </div>

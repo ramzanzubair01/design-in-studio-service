@@ -91,7 +91,7 @@
     "slug": "modern-poster-design-1",
     "description": "A modern, clean poster design crafted for digital and print marketing campaigns.",
     "images": [
-      "/images/portfolio_8.jpeg"
+      "/images/graphic-portfolio.png"
     ],
     "category": "graphic_design",
     "client": "PrintX",
@@ -107,8 +107,8 @@
     "slug": "responsive-web-app",
     "description": "A responsive web application tailored for small businesses, optimized for SEO and user experience.",
     "images": [
-      "/images/portfolio_8.jpeg",
-      "/images/portfolio_8_b.jpeg"
+      "/images/graphic-portfolio.png",
+      "/images/graphic-portfolio.png"
     ],
     "category": "web_development",
     "client": "BizSoft",

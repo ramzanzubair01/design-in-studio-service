@@ -164,7 +164,7 @@ const [portfolioData, setPortfolioData] = useState([]);
     title="Some recent work"
     subtitle=""
     showFilter={true}
-    initialItems={6}
+    initialItems={7}
     loadMoreStep={3}
   />
 </div>
