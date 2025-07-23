@@ -171,6 +171,7 @@ const [portfolioData, setPortfolioData] = useState([]);
   }
 `}</style>
  {/* End PortfolioSlider Section */}
+ <Spacing lg="105" md="70" />
 
     {/* Start Services Section */}
       {/* <Spacing lg="145" md="80" /> */}
@@ -208,10 +209,8 @@ const [portfolioData, setPortfolioData] = useState([]);
       </Div>
       {/* End FunFact Section */}
 
-      {/* Start Pricing Section */}
-      <Spacing lg="145" md="80" />
-     
-      {/* End Pricing Section */}
+      
+      <Spacing lg="150" md="80" />
 
       {/* Start Testimonial Section */}
       <TestimonialSlider />
