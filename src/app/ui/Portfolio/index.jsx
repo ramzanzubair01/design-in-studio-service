@@ -16,7 +16,7 @@ export default function Portfolio({ href = '#', src = '', title = 'Untitled', su
       />
       <Div className="cs-portfolio_info">
         <Div className="cs-portfolio_info_bg cs-accent_bg" />
-        <h2 className="cs-portfolio_title">{title}</h2>
+        <h2 className="cs-portfolio_title" style={{ color: '#1d1d1d' }}>{title}</h2>
         <Div className="cs-portfolio_subtitle">{subtitle}</Div>
       </Div>
     </Link>

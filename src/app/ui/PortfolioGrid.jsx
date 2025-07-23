@@ -43,9 +43,7 @@ export default function PortfolioGrid({
     }
   };
 
-  if (isLoading) {
-    return <div className="text-center py-20">Loading portfolio...</div>;
-  }
+ 
 
   return (
     <Div className="container">
