@@ -10,11 +10,7 @@ import Image from "next/image"
 export default function Zubair() {
   return (
     <>
-      <PageHeading
-        title='Muhammad Zubair'
-        bgSrc='/images/team_hero_bg.jpeg'
-        pageLinkText='Muhammad Zubair'
-      />
+      
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Div className="row align-items-center">

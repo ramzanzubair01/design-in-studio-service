@@ -7,7 +7,7 @@ const serviceData = [
     title: 'Graphic Design',
     subtitle:
       'We create designs that don’t just look good they tell your story. Whether it’s a logo, a poster, or social media post, we make sure it speaks your brand’s vibe clearly and creatively.',
-    imgUrl: '/images/service_7.jpeg',
+    imgUrl: '/images/grapgic design (1).png',
     href: '/service/graphicdesigning'
   },
   {

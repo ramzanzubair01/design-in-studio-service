@@ -10,11 +10,7 @@ import Image from "next/image"
 export default function Khuram() {
   return (
     <>
-      <PageHeading
-        title='Khuram Malik' 
-        bgSrc='/images/team_hero_bg.jpeg'
-        pageLinkText='Khuram Malik'
-      />
+     
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Div className="row align-items-center">

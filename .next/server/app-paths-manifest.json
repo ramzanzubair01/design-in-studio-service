@@ -1,7 +1,23 @@
 {
+  "/api/get-portfolio/route": "app/api/get-portfolio/route.js",
+  "/api/save-portfolio/route": "app/api/save-portfolio/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/case-study/[caseStudyId]/page": "app/case-study/[caseStudyId]/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/faq/page": "app/faq/page.js",
   "/page": "app/page.js",
-  "/team/page": "app/team/page.js",
-  "/team/adnan/page": "app/team/adnan/page.js",
+  "/portfolio/[slug]/page": "app/portfolio/[slug]/page.js",
   "/portfolio/page": "app/portfolio/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/service/aichatbots/page": "app/service/aichatbots/page.js",
+  "/service/graphicdesigning/page": "app/service/graphicdesigning/page.js",
+  "/service/page": "app/service/page.js",
+  "/service/uiux/page": "app/service/uiux/page.js",
+  "/service/webdevelopement/page": "app/service/webdevelopement/page.js",
+  "/team/adnan/page": "app/team/adnan/page.js",
+  "/team/khuram/page": "app/team/khuram/page.js",
+  "/team/page": "app/team/page.js",
+  "/team/saqib/page": "app/team/saqib/page.js",
+  "/team/zubair/page": "app/team/zubair/page.js"
 }

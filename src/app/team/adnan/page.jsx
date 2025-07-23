@@ -10,11 +10,7 @@ import Image from "next/image"
 export default function Adnan() {
   return (
     <>
-      <PageHeading
-        title='Adnan Akber'
-        bgSrc='/images/team_hero_bg.jpeg'
-        pageLinkText='Adnan Akber'
-      />
+     
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Div className="row align-items-center">

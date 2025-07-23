@@ -1,4 +1,6 @@
 'use client'
+import { useState } from 'react';
+import { useEffect } from 'react';
 import Cta from "@/app/ui/Cta";
 import Div from "@/app/ui/Div";
 import FunFact2 from "@/app/ui/FunFact/FunFact2";
@@ -7,11 +9,13 @@ import MovingText from "@/app/ui/MovingText";
 import SectionHeading from "@/app/ui/SectionHeading";
 import ServiceList from "@/app/ui/ServiceList";
 import PortfolioSlider2 from "@/app/ui/Slider/PortfolioSlider2";
-import PostSlider from "@/app/ui/Slider/PostSlider";
 import TestimonialSlider from "@/app/ui/Slider/TestimonialSlider";
 import Spacing from "@/app/ui/Spacing";
 import VideoSection from "@/app/ui/VideoSection";
 import Head from 'next/head';
+import PortfolioGrid from '@/app/ui/PortfolioGrid';
+import { useRouter } from 'next/navigation';
+
 
 
 const heroSocialLinks = [
@@ -44,6 +48,28 @@ const funfaceData = [
 ];
 
 export default function MarketingAgencyHome() {
+const [portfolioData, setPortfolioData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch('/data/portfolio.json');
+        const data = await res.json();
+        setPortfolioData(data);
+      } catch (error) {
+        console.error('Error loading portfolio data:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
+
+  if (isLoading) {
+    return <div className="text-center py-20">Loading portfolio...</div>;
+  }
+ 
   return (
     <>
     <Head>
@@ -129,8 +155,44 @@ export default function MarketingAgencyHome() {
 </h2>
       </Div>
       <Spacing lg="90" md="70" />
-      <PortfolioSlider2 />
-      {/* End PortfolioSlider Section */}
+      <div style={{ display: 'block' }} className="mobile-slider">
+  <PortfolioSlider2 />
+</div>
+
+{/* Desktop/Laptop (Grid - Bari screens pe show) */}
+<div style={{ display: 'none' }} className="desktop-grid">
+  <PortfolioGrid 
+    portfolioData={portfolioData}
+    title="Some recent work"
+    subtitle=""
+    showFilter={true}
+    initialItems={6}
+    loadMoreStep={3}
+  />
+</div>
+
+<style jsx>{`
+  /* Mobile & Tablet (768px tak) */
+  @media (max-width: 1023px) {
+    .desktop-grid {
+      display: none !important;
+    }
+    .mobile-slider {
+      display: block !important;
+    }
+  }
+  
+  /* Desktop/Laptop (1024px se bada) */
+  @media (min-width: 1024px) {
+    .mobile-slider {
+      display: none !important;
+    }
+    .desktop-grid {
+      display: block !important;
+    }
+  }
+`}</style>
+ {/* End PortfolioSlider Section */}
 
       {/* Start FunFact Section */}
       <Spacing lg="150" md="80" />

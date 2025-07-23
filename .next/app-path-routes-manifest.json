@@ -1,0 +1,23 @@
+{
+  "/api/get-portfolio/route": "/api/get-portfolio",
+  "/api/save-portfolio/route": "/api/save-portfolio",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/admin/page": "/admin",
+  "/case-study/[caseStudyId]/page": "/case-study/[caseStudyId]",
+  "/contact/page": "/contact",
+  "/faq/page": "/faq",
+  "/page": "/",
+  "/portfolio/[slug]/page": "/portfolio/[slug]",
+  "/portfolio/page": "/portfolio",
+  "/service/aichatbots/page": "/service/aichatbots",
+  "/service/graphicdesigning/page": "/service/graphicdesigning",
+  "/service/page": "/service",
+  "/service/uiux/page": "/service/uiux",
+  "/service/webdevelopement/page": "/service/webdevelopement",
+  "/team/adnan/page": "/team/adnan",
+  "/team/khuram/page": "/team/khuram",
+  "/team/page": "/team",
+  "/team/saqib/page": "/team/saqib",
+  "/team/zubair/page": "/team/zubair"
+}
