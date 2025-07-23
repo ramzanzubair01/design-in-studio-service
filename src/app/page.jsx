@@ -15,6 +15,7 @@ import VideoSection from "@/app/ui/VideoSection";
 import Head from 'next/head';
 import PortfolioGrid from '@/app/ui/PortfolioGrid';
 import { useRouter } from 'next/navigation';
+import LogoList from '@/app/ui/LogoList';
 
 
 
@@ -115,29 +116,8 @@ const [portfolioData, setPortfolioData] = useState([]);
 />
       {/* End Hero Section */}
 
-      {/* Start Video Block Section */}
-      <Div className="cs-video_block_1_wrap ">
-        <Div className="container">
-        <VideoSection />
-        </Div>
-      </Div>
-      {/* End Video Block Section */}
-
-      {/* Start Services Section */}
-      {/* <Spacing lg="145" md="80" /> */}
-      <Div className="container">
-      <SectionHeading
-  title={`Our core <span style="background: linear-gradient(90deg, #1bfff3, #aeffae); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; display: inline;">services</span>`}
-  subtitle="Services"
-  variant="cs-style1 text-center"
-/>
-        <Spacing lg="70" md="45" />
-        <ServiceList />
-      </Div>
-      {/* End Services Section */}
-
-      {/* Start PortfolioSlider Section */}
-      <Spacing lg="120" md="50" />
+{/* Start PortfolioSlider Section */}
+<Spacing lg="90" md="40" />
       <Div className="container">
       <h2 className="cs-font_50 cs-m0 cs-line_height_4">
   Explore the Work We've Done for{' '}
@@ -152,7 +132,7 @@ const [portfolioData, setPortfolioData] = useState([]);
   </span>
 </h2>
       </Div>
-      <Spacing lg="90" md="70" />
+      <Spacing lg="50" md="50" />
       <div style={{ display: 'block' }} className="mobile-slider">
   <PortfolioSlider2 />
 </div>
@@ -192,6 +172,31 @@ const [portfolioData, setPortfolioData] = useState([]);
 `}</style>
  {/* End PortfolioSlider Section */}
 
+    {/* Start Services Section */}
+      {/* <Spacing lg="145" md="80" /> */}
+      <Div className="container">
+      <SectionHeading
+  title={`Our core <span style="background: linear-gradient(90deg, #1bfff3, #aeffae); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; display: inline;">services</span>`}
+  subtitle="Services"
+  variant="cs-style1 text-center"
+/>
+        <Spacing lg="70" md="45" />
+        <ServiceList />
+      </Div>
+      {/* End Services Section */}
+
+      {/* Start Video Block Section */}
+      <Div className="cs-video_block_1_wrap ">
+        <Div className="container">
+        <VideoSection />
+        </Div>
+      </Div>
+      {/* End Video Block Section */}
+
+     
+
+    
+
       {/* Start FunFact Section */}
       <Spacing lg="150" md="80" />
       <Div className="container">
@@ -211,6 +216,14 @@ const [portfolioData, setPortfolioData] = useState([]);
       {/* Start Testimonial Section */}
       <TestimonialSlider />
       {/* End Testimonial Section */}
+
+        {/* Start logolist Section */}
+        <Spacing lg="145" md="80" />
+        <Div className="container">
+        <LogoList />
+      </Div>
+      <Spacing lg="145" md="80" />
+      {/* End loglist Section */}
 
       
      
