@@ -66,9 +66,7 @@ const [portfolioData, setPortfolioData] = useState([]);
     fetchData();
   }, []);
 
-  if (isLoading) {
-    return <div className="text-center py-20">Loading portfolio...</div>;
-  }
+  
  
   return (
     <>

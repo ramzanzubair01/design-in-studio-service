@@ -7,28 +7,28 @@ const serviceData = [
     title: 'Graphic Design',
     subtitle:
       'We create designs that don’t just look good they tell your story. Whether it’s a logo, a poster, or social media post, we make sure it speaks your brand’s vibe clearly and creatively.',
-    imgUrl: '/images/grapgic design (1).png',
+    imgUrl: '/images/graphic (1).png',
     href: '/service/graphicdesigning'
   },
   {
     title: 'UI/UX Design',
     subtitle:
       'Good design isn’t just about looks it’s about how things feel and work. We design clean, user-friendly interfaces that make your website or app easy and enjoyable to use.',
-    imgUrl: '/images/service_8.jpeg',
+    imgUrl: '/images/uiux (1).png',
     href: '/service/uiux',
   },
   {
     title: 'Web Development',
     subtitle:
       'Need a website that loads fast and works perfectly on all devices? We build custom websites that are not just good-looking but also reliable, smooth, and easy to manage',
-    imgUrl: '/images/service_9.jpeg',
+    imgUrl: '/images/service_4.jpeg',
     href: '/service/webdevelopement',
   },
   {
     title: 'Ai Solutions',
     subtitle:
       'From idea to launch  we help you build mobile apps that people love to use. Whether it’s Android or iOS, we focus on creating apps that are smooth, simple, and full of useful features.',
-    imgUrl: '/images/service_10.jpeg',
+    imgUrl: '/images/ai-solutions (1).png',
     href: '/service/aichatbots',
   },
  

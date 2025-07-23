@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.5",
+    "cheerio": "^1.1.2",
     "html-react-parser": "^5.2.3",
     "lightgallery": "^2.8.3",
     "next": "15.3.1",
